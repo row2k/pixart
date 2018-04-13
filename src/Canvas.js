@@ -73,7 +73,7 @@ class Canvas extends Component {
 
         </form>
         <div className="sizeMessage">
-          Ohh nooo!! Your browser is narrower than 320px. Please switch over to a larger screen.
+          Ohh nooo!! Your browser is too small. Please switch over to a larger screen that is at least 320x675.
         </div>
         <div className="app-wrapper paper canvas">
           {

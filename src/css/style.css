@@ -1144,6 +1144,17 @@ h1 {
     display: none;
   }
 }
+@media all and (max-height: 675px) {
+  .canvas {
+    display: none;
+  }
+  .colorPicker {
+    display: none;
+  }
+  .initializeMessage {
+    display: none;
+  }
+}
 form.colorPicker {
   margin: 2rem 0;
   text-align: center;
