@@ -20,6 +20,7 @@ export default class About extends Component {
               <ul>
                 <li>Avoid props drilling with Redux</li>
                 <li>Add stroke event (mousedown && mouseover)</li>
+                <li>Responsive sizes are a little messed up. Unresponsive patch for now. Thanks to <a href="https://github.com/jschiarizzi">@jschiarizzi</a> for the flag.</li>
               </ul>
               <h2>Me</h2>
               <p>Hi, I'm Rowland. I'm glad you're here! Head on over to my <a href="https://github.com/row2k">github repo</a> to see my other work or get in touch with me.</p>

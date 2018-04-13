@@ -28,14 +28,14 @@ class PixelLarge extends Component {
     const { red , green, blue, alpha} = this.props.details;
     const pixelLargeStyle = {
       backgroundColor: `rgba(${red},${green},${blue},${alpha})`,
-      height: '37.5px',
-      width: '37.5px',
+      height: '20px',
+      width: '20px',
       margin: 0,
       padding: 0,
       border: '0.5px solid #DEDEDE',
       float: 'left',
-      lineHeight: '37.5px',
-      fontSize: '37.5px'
+      lineHeight: '20px',
+      fontSize: '20px'
     }
     return(
         <div ref={c => this._pixel = c} id={this.props.id} onMouseDown={this.handleMouseDown} onDragOver={this.handleMouseDown} style={pixelLargeStyle}></div>

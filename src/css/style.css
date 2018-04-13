@@ -1044,8 +1044,8 @@ h1 {
           align-items: center;
 }
 .canvas {
-  height: 600px;
-  width: 600px;
+  height: 320px;
+  width: 320px;
   margin: 0;
   padding: 0;
 }
@@ -1133,7 +1133,7 @@ h1 {
   z-index: -1;
   text-align: center;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 320px) {
   .canvas {
     display: none;
   }
@@ -1146,15 +1146,15 @@ h1 {
 }
 form.colorPicker {
   margin: 2rem 0;
-  font-size: 2rem;
   text-align: center;
 }
 form.colorPicker label {
   font-family: Monoton, cursive;
+  font-size: 1.2rem;
 }
 form.colorPicker input[type="color"] {
   height: 3rem;
-  width: 200px;
+  width: 5rem;
   border: none;
 }
 form.colorPicker input[type="color"]:focus {
