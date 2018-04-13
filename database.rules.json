@@ -1,0 +1,10 @@
+{
+  "rules": {
+    ".write": "!data.exists()",
+    ".read": true,
+    "$room": {
+      ".write": true,
+      ".read": true
+    }
+  }
+}
